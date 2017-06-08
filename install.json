@@ -1,0 +1,21 @@
+{
+  "resources": {
+    "body": [
+      {
+        "type": "script",
+        "src": "./embed.js"
+      }
+    ]
+  },
+  "options": {
+    "properties": {
+      "widgetId": {
+        "title": "Widget ID",
+        "description": "You can find your Widget ID on the “Get The Code” tab of your <a href='https://www.snapengage.com/app/settings' target=_blank>SnapEngage settings</a> in the (Advanced) section.",
+        "placeholder": "00000000-abcd-2222-ccff-444fffaaa333",
+        "order": 100,
+        "type": "string"
+      }
+    }
+  }
+}
